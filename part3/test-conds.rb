@@ -3,7 +3,7 @@ require 'yaml'
 
 loader = Loader.new
 
-(0..15).each do |i|
+(0..3).each do |i|
   puts "OP1 = #{i}"
   s =<<EOS
 movh r0, 0x00
